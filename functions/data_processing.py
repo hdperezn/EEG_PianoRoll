@@ -1,3 +1,5 @@
+import numpy as np
+
 def segmentation_trials(X, fs, segs= 6):
   """
   Input
