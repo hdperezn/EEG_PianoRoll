@@ -1,4 +1,6 @@
 import numpy as np
+from sklearn.metrics import accuracy_score, cohen_kappa_score, ConfusionMatrixDisplay, balanced_accuracy_score, roc_auc_score
+
 
 def segmentation_trials(X, fs, segs= 6):
   """
