@@ -82,7 +82,7 @@ def piano_roll_to_pretty_midi(piano_roll, fs=100, program=0):
     return pm
 
 """
-function specific for aplication "autoencoder piano roll"
+specific function for aplication "autoencoder piano roll"
 """ 
 def cut_midi_secTrial(X, wind=10):
     """
